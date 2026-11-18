@@ -12,9 +12,7 @@
 ## 安装与配置
 1. 克隆本仓库到本地：git clone https://github.com/roxy-netizen.git
 cd python-project-5
-2. 创建并激活虚拟环境（可选但推荐）： python -m venv venv
-source venv/bin/activate  # Windows 使用: venv\Scripts\activate
-3. 安装依赖：pip install numpy matplotlib
+2. 安装依赖：pip install numpy matplotlib
 ## 运行与复现结果
 本项目的实验结果可通过以下命令一键复现验证：python check.py --stage all
 运行后将会依次检查预处理、Patch 嵌入、Token 拼接、Transformer Block 及最终输出等 8 个阶段，并显示 PASS 及误差绝对值（所有误差均在容差范围内）。
