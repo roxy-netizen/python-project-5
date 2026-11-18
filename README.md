@@ -11,7 +11,7 @@
 
 ## 安装与配置
 1. 克隆本仓库到本地：git clone https://github.com/roxy-netizen.git
-cd 你的仓库名
+cd python-project-5
 2. 创建并激活虚拟环境（可选但推荐）： python -m venv venv
 source venv/bin/activate  # Windows 使用: venv\Scripts\activate
 3. 安装依赖：pip install numpy matplotlib
